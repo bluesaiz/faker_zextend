@@ -33,6 +33,9 @@ RSpec.describe FakerZextend do
   # Faker::PhoneNumber.cell_phone
   # Faker::Name.name
   # Faker::Date.between(from: '2014-09-23', to: '2020-09-25').strftime("%Y-%m-%d")
+  # Faker::Internet.email
+  # Faker::Internet.url
+  
   it "can generate company name" do
     name = Faker::Chinese::Company.name
     expect(name.length).to be > (6)
