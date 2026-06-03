@@ -8,15 +8,15 @@ Gem::Specification.new do |spec|
 
   spec.summary       = %q{extend faker for chinese data faker}
   spec.description   = %q{extend faker for chinese data faker}
-  spec.homepage      = "http://gitlab.zsai.com:8070/lib/faker_zextend"
+  spec.homepage      = "https://github.com/bluesaiz/faker_zextend"
   spec.license       = "MIT"
   spec.required_ruby_version = Gem::Requirement.new(">= 2.3.0")
 
-  spec.metadata["allowed_push_host"] = "http://192.168.1.132:9571/"
+  spec.metadata["allowed_push_host"] = "https://rubygems.org"
 
   spec.metadata["homepage_uri"] = spec.homepage
-  spec.metadata["source_code_uri"] = "http://gitlab.zsai.com:8070/lib/faker_zextend"
-  spec.metadata["changelog_uri"] = "http://gitlab.zsai.com:8070/lib/faker_zextend"
+  spec.metadata["source_code_uri"] = "https://github.com/bluesaiz/faker_zextend"
+  spec.metadata["changelog_uri"] = "https://github.com/bluesaiz/faker_zextend"
 
   # Specify which files should be added to the gem when it is released.
   # The `git ls-files -z` loads the files in the RubyGem that have been added into git.
