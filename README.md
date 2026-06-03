@@ -202,10 +202,16 @@ faker_zextend/
 ### 打包
 
 ```bash
-gem build faker_zextend.gemspec
+rake build
 ```
 
 产物会输出到 `pkg/faker_zextend-<version>.gem`。
+
+发布到 RubyGems：
+
+```bash
+rake release
+```
 
 ## 依赖 Dependencies
 
